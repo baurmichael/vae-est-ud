@@ -3,10 +3,9 @@ import json
 import numpy as np
 import scipy as sp
 import torch
-from utils import genie_omp
 import matplotlib.pyplot as plt
 from datasets.threegppHybrid import ThreeGPPHybrid
-from utils import rel_mse_np, compute_lmmse, dft_matrix
+from utils import rel_mse_np, compute_lmmse, dft_matrix, genie_omp
 from models import VAENoisyHybrid
 from models import VAERealHybrid
 
