@@ -160,7 +160,7 @@ plt.semilogy(snr_ar, rel_mse_genie_cov, 'x--b', label='CME')
 
 res_global_cov = np.array([snr_ar, rel_mse_global_cov]).T
 print('global-cov:\n', res_global_cov)
-plt.semilogy(snr_ar, rel_mse_global_cov, '|--c', label='global')
+plt.semilogy(snr_ar, rel_mse_global_cov, '|--g', label='global')
 
 res_omp = np.array([snr_ar, rel_mse_omp]).T
 print('genie-OMP:\n', res_omp)
